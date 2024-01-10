@@ -52,7 +52,7 @@ public class GameSetup {
         // Return a list of question file names
         // Customize this method based on your file naming conventions
         LinkedList<String> questionFiles = new LinkedList<>();
-        questionFiles.add("questions_file1.csv");
+        questionFiles.add("questions_file.csv");
 //        questionFiles.add("questions_file2.csv");
         // Add more files if needed
         return questionFiles;
@@ -62,7 +62,7 @@ public class GameSetup {
         // Return a list of answer file names
         // Customize this method based on your file naming conventions
         LinkedList<String> answerFiles = new LinkedList<>();
-        answerFiles.add("answers_file1.csv");
+        answerFiles.add("questions_file.csv");
         //  answerFiles.add("answers_file2.csv");
         // Add more files if needed
         return answerFiles;
